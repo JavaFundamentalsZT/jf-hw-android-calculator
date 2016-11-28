@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.1'
+
+    defaultConfig {
+        applicationId 'org.zeroturnaround.jf.android.calculator'
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName '1.0'
+    }
+}
