@@ -75,17 +75,21 @@ $ ./gradlew clean deploy --console=plain
 Incremental java compilation is an incubating feature.
 :clean
 :gatherHwProps
-Your full name (e.g. John Smith): Jane Smith
-Your Student Book Number (matrikli number, e.g. B12345): B12345
-Homework number: 14
-Comment: Java & Android
 
+Your full name (e.g. John Smith):
+Jane Smith
+Your Student Book Number (matrikli number, e.g. B12345):
+B12345
+Homework number:
+14
+Comment:
+for the lulz
 :deploy
 Built zip /Users/madis/Code/jf-hw-android-calculator/build/jf-homework-B12345-14.zip
 
 BUILD SUCCESSFUL
 
-Total time: 15.539 secs
+Total time: 17.082 secs
 ```
 
 After Gradle has finished, you can find the generated ZIP file in *build* folder with name such as

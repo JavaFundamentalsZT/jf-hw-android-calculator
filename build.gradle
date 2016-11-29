@@ -25,10 +25,19 @@ android {
 task gatherHwProps {
     doLast {
         // gather the props from the console
-        project.ext.fullName = System.console().readLine("\nYour full name (e.g. John Smith): ")
-        project.ext.bookNo = System.console().readLine('Your Student Book Number (matrikli number, e.g. B12345): ')
-        project.ext.hwNo = System.console().readLine('Homework number: ')
-        project.ext.comment = System.console().readLine('Comment: ')
+        def input = new BufferedReader(System.in.newReader('UTF-8'))
+        println ''
+        println 'Your full name (e.g. John Smith): '
+        project.ext.fullName = input.readLine().trim()
+
+        println 'Your Student Book Number (matrikli number, e.g. B12345): '
+        project.ext.bookNo = input.readLine().trim()
+
+        println 'Homework number: '
+        project.ext.hwNo = input.readLine().trim()
+
+        println 'Comment: '
+        project.ext.comment = input.readLine().trim()
 
         // write them out to build/homework.properties
         Properties props = new Properties()
