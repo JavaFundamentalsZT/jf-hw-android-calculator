@@ -2,6 +2,10 @@
 
 You are given a work-in-progress binary calculator app. All of the UI has been done but it's missing code!
 
+Here's a screenshot of the app:
+
+![](calculator.png)
+
 The calculator can only work with **binary numbers** and only has one operation: **add**.
 
 Apart from that the calculator works as you would expect - there's a standard text display on the top
@@ -10,10 +14,6 @@ on the top display, there is a `=` button that shows the result and the user can
 by pressing the `+` button instead of `=`. Refer to the _requirements_ below.
 
 Hint: No UI changes are necessary, all of the work should be done in `CalculatorActivity`.
-
-Here's a screenshot of the app:
-
-![](calculator.png)
 
 ## Requirements
 
