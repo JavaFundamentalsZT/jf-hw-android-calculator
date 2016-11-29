@@ -16,8 +16,6 @@ Hint: No UI changes are necessary, all of the work should be done in `Calculator
 
 ## Requirements
 
-* Additions with up to 16-digit binary numbers must be supported
-
 * Pressing `0` or `1` must be immediately reflected in the text display
 
 ![](req1input.gif)
@@ -45,6 +43,9 @@ Hint: No UI changes are necessary, all of the work should be done in `Calculator
 * `CLR` completely resets the calculator to the initial state
 
 ![](req5clr.gif)
+
+* Additions with up to 16-digit binary numbers must be supported
+* Handling invalid input is completely up to you
 
 ## Submitting
 
