@@ -76,6 +76,8 @@ task deploy(type: Zip) {
         exclude 'local.properties'
         // ignore the wrapper dir as it has a jar in it and could block emails...
         exclude 'gradle/'
+        // ignore the gifs, they take quite a lot of space
+        exclude '**/*.gif'
     }
     from(file("${buildDir}/homework.properties"))
 }
