@@ -9,9 +9,8 @@ Here's a screenshot of the app:
 The calculator can only work with **binary numbers** and only has one operation: **add**.
 
 Apart from that the calculator works as you would expect - there's a standard text display on the top
-showing current input, a `CLR` button that resets the state completely, inputs are immediately reflected
-on the top display, there is a `=` button that shows the result and the user can chain multiple additions
-by pressing the `+` button instead of `=`. Refer to the _requirements_ below.
+showing current input, a `CLR` button that resets the state completely, you can sum two (binary) numbers
+and the user can even chain multiple additions by pressing the `+` button instead of `=`.
 
 Hint: No UI changes are necessary, all of the work should be done in `CalculatorActivity`.
 
