@@ -20,7 +20,7 @@ Hint: No UI changes are necessary, all of the work should be done in `Calculator
 
 ![](req1input.gif)
 
-* After pressing `+` the user must be able to input a new number from scratch
+* After pressing `+` the user must be able to input a new number
 
 ![](req2plusclears.gif)
 
