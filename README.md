@@ -88,7 +88,7 @@ BUILD SUCCESSFUL
 Total time: 15.539 secs
 ```
 
-After Maven has finished, you can find the generated ZIP file in *build* folder with name such as
+After Gradle has finished, you can find the generated ZIP file in *build* folder with name such as
 *jf-homework-B12345-14.zip* (it contains your Student Book Number/matrikli number and homework number).
 
 Attach the ZIP to an e-mail and **send it our way**, to *jf@zeroturnaround.com*.
