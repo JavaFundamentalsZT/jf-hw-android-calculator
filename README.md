@@ -24,11 +24,11 @@ Hint: No UI changes are necessary, all of the work should be done in `Calculator
 
 ![](req2plusclears.gif)
 
-* Inputting a number, pressing `+`, inputting another number and then pressing `=` should display the sum
+* Inputting a number, pressing `+`, inputting another number and then pressing `=` must display the (correct) sum
 
 ![](req3addition.gif)
 
-* The user must be able to keep _chaining_ values with `+`, i.e. the following must work:
+* The user must be able to keep _chaining_ additions with `+`, i.e. the following must work:
   * Input `100`
   * Press `+`
   * Input `10`
