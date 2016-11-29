@@ -11,9 +11,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:label="@string/help"
-            android:name=".HelpActivity"
-            android:parentActivityName=".CalculatorActivity" />
     </application>
 </manifest>
