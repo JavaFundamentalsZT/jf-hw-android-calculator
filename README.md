@@ -18,12 +18,19 @@ Here's a screenshot of the app:
 ## Requirements
 
 * Additions with up to 16-digit binary numbers must be supported
+
 * Pressing `0` or `1` must be immediately reflected in the text display
-  ![](req1input.gif)
+
+![](req1input.gif)
+
 * After pressing `+` the user must be able to input a new number from scratch
-  ![](req2plusclears.gif)
+
+![](req2plusclears.gif)
+
 * Inputting a number, pressing `+`, inputting another number and then pressing `=` should display the sum
-  ![](req3addition.gif)
+
+![](req3addition.gif)
+
 * The user must be able to keep _chaining_ values with `+`, i.e. the following must work:
   * Input `100`
   * Press `+`
@@ -33,9 +40,12 @@ Here's a screenshot of the app:
   * Press `+` <-- calculator displays 111
   * Input 1
   * Press `=` <-- calculator displays 1000
-  ![](req4chain.gif)
+
+![](req4chain.gif)
+
 * `CLR` completely resets the calculator to the initial state
-  ![](req5clr.gif)
+
+![](req5clr.gif)
 
 ## Submitting
 
